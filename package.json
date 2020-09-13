@@ -6,8 +6,10 @@
   "license": "MIT",
   "scripts": {
     "dev-server": "webpack-dev-server",
-    "serve": "live-server public",
-    "test": "jest --config=jest.config.json"
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "test": "jest --config=jest.config.json",
+    "serve": "live-server public"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.10.4",
@@ -25,6 +27,7 @@
     "global": "^4.4.0",
     "jest": "^26.4.2",
     "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^0.11.2",
     "moment": "^2.18.1",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
