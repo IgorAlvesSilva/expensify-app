@@ -3,7 +3,7 @@ import ExpenseDashboardPage from "../../components/ExpenseDashboardPage";
 import { shallow } from 'enzyme'
 
 
-test("should render Header correctly", () => {
+test("should render ExpenseDashboardPage correctly", () => {
     const wrapper = shallow(<ExpenseDashboardPage />);
     expect(wrapper).toMatchSnapshot();
 });
