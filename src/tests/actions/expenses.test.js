@@ -8,6 +8,7 @@ const uid = 'thisismytestuid'
 const defaultAuthState = {'auth': {uid} }
 const createMockStore = configureMockStore([thunk]);
 
+
 beforeEach((done) => {
     const expensesData = {}
 
