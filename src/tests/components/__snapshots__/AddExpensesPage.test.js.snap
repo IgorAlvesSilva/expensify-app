@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render addExpense correcly 1`] = `
+exports[`should render startAddExpense correcly 1`] = `
 <div>
   This is from my add expense component
   <ExpenseForm
